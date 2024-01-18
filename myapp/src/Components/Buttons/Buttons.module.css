@@ -1,0 +1,17 @@
+
+.buttons{
+    border-radius: 5px;
+   
+    display: flex;
+    align-items: center;
+
+}
+.buttons button{
+    color: white;
+   
+padding: 8px 16px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
