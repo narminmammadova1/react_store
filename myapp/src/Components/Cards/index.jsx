@@ -81,7 +81,7 @@ export const Cards = ({ product }) => {
 
   const addToBasket = () => {
     console.log("added basket");
-dispatch({ type: 'ADD_BASKET', payload: { id: product.id, name: product.product_name } });
+dispatch({ type: 'ADD_BASKET', payload: { id: product.id, name: product.product_name,itemCount:count} });
 console.log("basket",state.basket);
 
   };

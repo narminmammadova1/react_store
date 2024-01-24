@@ -11,7 +11,7 @@ export const Navbar = () => {
 
         <li onClick={()=>navigate(ROUTER.ABOUT)}>About us</li>
       <li  onClick={()=>navigate(ROUTER.CONTACT)}>Contact</li>
-      <li  onClick={()=>navigate(ROUTER.FAVORITES)}>Favorites</li>
+      <li  onClick={()=>navigate(ROUTER.USERS)}>Users</li>
 
       <li  onClick={()=>navigate(ROUTER.BASKET)}>Basket</li>
 

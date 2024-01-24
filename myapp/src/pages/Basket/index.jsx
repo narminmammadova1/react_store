@@ -18,7 +18,7 @@ return (
           {state.basket.map((item) => (
             <li key={item.id}>
               {/* Örneğin, her bir ürünün adını ve sayısını görüntüleme */}
-              {item.name}
+              {item.itemCount} x {item.name}
             </li>
           ))}
         </ul>

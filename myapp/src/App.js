@@ -5,8 +5,8 @@ import { ROUTER } from './ROUTER';
 import Home from './pages/Home';
 import { About } from './pages/About';
 import { Contact } from './pages/Contact';
-import { Favorites } from './pages/Favorites';
 import { Basket } from './pages/Basket';
+import { Users } from './pages/Users';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
 <Route path={ROUTER.ABOUT} element={<About/>}/>
 
 <Route path={ROUTER.CONTACT} element={<Contact/>}/>
-<Route path={ROUTER.FAVORITES} element={<Favorites/>}/>
+<Route path={ROUTER.USERS} element={<Users/>}/>
 
 
 <Route path={ROUTER.BASKET} element={<Basket/>}/>
